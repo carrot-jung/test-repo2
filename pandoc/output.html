@@ -1,0 +1,88 @@
+<body>
+    <header>
+        <h1>LOGO</h1>
+        <h2>HEADER</h2>
+    </header>
+    <h1 id="pandoc">Pandoc</h1>
+    <ul>
+        <li>This is more like cli library</li>
+        <li>It’s possible to convert from Markdown to PDF directly with simple
+            command</li>
+        <li>https://github.com/jgm/pandoc</li>
+    </ul>
+    <h2 id="installation">Installation</h2>
+    <ol type="1">
+        <li>brew install pandoc</li>
+        <li>brew install basictex</li>
+    </ol>
+    <h2 id="markdown-to-pdf">Markdown to PDF</h2>
+    <ul>
+        <li>
+            <p>Command : pandoc MAIN.md -o output.pdf</p>
+        </li>
+        <li>
+            <p>Pros : It’s possible to convert from markdown to pdf
+                directly</p>
+        </li>
+        <li>
+            <p>Cons : There’s no way to decorate PDF. For example, we can not
+                force title to be located at speicific area. That said, manipulating
+                header, footer is out of concept in this process. If we use html code to
+                fix image size in markdown, for instance, html code will be excluded
+                when converting from markdown to pdf</p>
+        </li>
+    </ul>
+    <p><img src="github.png" alt="Image" />
+        <!-- <img src="./github.png" width="200px" height="200px" title="Github_Logo"/> --></p>
+    <h2 id="markdown-to-html-html---pdf">Markdown to Html &amp; Html -&gt;
+        Pdf</h2>
+    <ul>
+        <li>
+            <p>Command : pandoc MAIN.md -o output.html &amp; pandoc output.html
+                -o output.pdf</p>
+        </li>
+        <li>
+            <p>Pros : By manipulating output.html, we can beautify our template
+                to generate PDF.</p>
+        </li>
+        <li>
+            <p>Cons : Nothing special. Just two times command.</p>
+        </li>
+    </ul>
+    <h2 id="ignore">Ignore</h2>
+    <table>
+        <thead>
+            <tr class="header">
+                <th style="text-align: left;">Item</th>
+                <th style="text-align: center;">In Stock</th>
+                <th style="text-align: right;">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td style="text-align: left;">Python Hat</td>
+                <td style="text-align: center;">True</td>
+                <td style="text-align: right;">23.99</td>
+            </tr>
+            <tr class="even">
+                <td style="text-align: left;">SQL Hat</td>
+                <td style="text-align: center;">True</td>
+                <td style="text-align: right;">23.99</td>
+            </tr>
+            <tr class="odd">
+                <td style="text-align: left;">Codecademy Tee</td>
+                <td style="text-align: center;">False</td>
+                <td style="text-align: right;">19.99</td>
+            </tr>
+            <tr class="even">
+                <td style="text-align: left;">Codecademy Hoodie</td>
+                <td style="text-align: center;">False</td>
+                <td style="text-align: right;">42.99</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <h1>LOGO</h1>
+        <h2>Footer</h2>
+    </footer>
+</body>
