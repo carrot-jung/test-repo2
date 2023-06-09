@@ -14,6 +14,12 @@
 - Pros : It's possible to convert from markdown to pdf directly
 - Cons : Once markdown converted to PDF, the content is always located at specific area which we can't control. For example, in case we need to put speicifc word to the top without space, it seems to be impossible. To give some css config, we can try with latex template ( https://github.com/Wandmalfarbe/pandoc-latex-template)
 
+- Additional libs are needed to use pandoc-latext-template : https://github.com/Wandmalfarbe/pandoc-latex-template/issues/141
+
+
+## Latex-template-example
+- https://github.com/Wandmalfarbe/pandoc-latex-template/tree/master/examples
+
 
 ![Image](github.png)
 <!-- <img src="./github.png" width="200px" height="200px" title="Github_Logo"/> -->
