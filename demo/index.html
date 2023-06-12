@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Promise</title>
+</head>
+
+<body>
+    <h2>Confirmation Letter</h2>
+    <p>
+        Hi {{customerName}}!
+    </p>
+    <p>
+        Congratulations on protecting your confirmed travel or event plans with a WeatherPromise! Your WeatherPromise is
+        described in this Confirmation Letter and the attached WeatherPromise Terms and Conditions.
+    </p>
+    <p>
+        <strong>You have purchased a Daily WeatherPromise.</strong>
+        <br />
+        That means that subject to the WeatherPromise Terms and Conditions, we will pay you {{reimbursementAmount}} for
+        the
+        second and each subsequent day that it rains more than {{maxRainfallAmount}} inches. No payout is due for the
+        first
+        such day. Your WeatherPromise will be in effect starting on {{startDate}} and ending on {{endDate}}, including
+        those
+        days.
+    </p>
+
+    <p>
+        We will automatically watch the weather. If we owe you a payout, subject to the attached Terms and Conditions,
+        we will
+        reach out to you directly at {{customerEmail}} to facilitate the payout. You don’t even have to worry about
+        contacting
+        us.
+    </p>
+    <p>
+        Weather observations and payment calculations for {{locationName}} are based on:
+    </p>
+    {{weatherDatasource}}
+    <p>
+        We love to hear from our customers, so please don’t hesitate to reach out to us at
+        <a href="mailto:support.detour@weatherpromise.com">support.detour@weatherpromise.com</a> with any questions.
+        Please
+        just mention your WeatherPromise confirmation code {{contractNumber}} or, even better, just reply to this email.
+    </p>
+</body>
+
+</html>

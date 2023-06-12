@@ -1,0 +1,24 @@
+= Weather Promise
+:doctype: book
+:title-page: 
+
+Hi {{customerName}}!
+
+Congratulations on protecting your confirmed travel or event plans with a WeatherPromise! Your WeatherPromise is
+described in this Confirmation Letter and the attached WeatherPromise Terms and Conditions.
+
+You have purchased a Daily WeatherPromise.
+
+[#activate]
+== You have purchased a Daily WeatherPromise.
+
+That means that subject to the WeatherPromise Terms and Conditions, we will pay you {{reimbursementAmount}} for
+the second and each subsequent day that it rains more than {{maxRainfallAmount}} inches. No payout is due for the first
+such day. Your WeatherPromise will be in effect starting on {{startDate}} and ending on {{endDate}}, including those days.
+
+We will automatically watch the weather. If we owe you a payout, subject to the attached Terms and Conditions,
+we will reach out to you directly at {{customerEmail}} to facilitate the payout. You don’t even have to worry about contacting us.
+
+Weather observations and payment calculations for {{locationName}} are based on:
+We love to hear from our customers, so please don’t hesitate to reach out to us at support.detour@weatherpromise.com[weatherpromise.com].
+
