@@ -1,0 +1,44 @@
+== Confirmation Letter
+
+Hi {{customerName}}!
+
+Congratulations on protecting your confirmed travel or event plans with a WeatherPromise! Your WeatherPromise is described in this Confirmation Letter and the attached WeatherPromise Terms and Conditions.
+
+You have purchased a Daily WeatherPromise.
+That means that subject to the WeatherPromise Terms and Conditions, we will pay you {{reimbursementAmount}} for the second and each subsequent day that it rains more than {{maxRainfallAmount}} inches. No payout is due for the first such day. Your WeatherPromise will be in effect starting on {{startDate}} and ending on {{endDate}}, including those days.
+
+We will automatically watch the weather. If we owe you a payout, subject to the attached Terms and Conditions, we will reach out to you directly at {{customerEmail}} to facilitate the payout. You don't even have to worry about contacting us.
+
+Weather observations and payment calculations for {{locationName}} are based on:
+
+{{weatherDatasource}}
+
+We love to hear from our customers, so please don't hesitate to reach out to us at support.detour@weatherpromise.com with any questions. Please just mention your WeatherPromise confirmation code {{contractNumber}} or, even better, just reply to this email.
+
+The attached Information Page includes key information that you provided during the WeatherPromise purchase process. In addition, your WeatherPromise is subject to the attached Terms and Conditions. The Information Page and the Terms and Conditions together form a legal contract. Please review both carefully, and contact us with any questions. If any of the Terms and Conditions conflict with this Confirmation Letter, the Terms and Conditions will be followed.
+
+Finally, we wish you great weather and a great time!
+
+Sincerely,
+The WeatherPromise Team
+
+== Your WeatherPromise Information Page
+
+[cols="3a,3a,6"]
+|===
+| Item | Customer Fields | Your WeatherPromise Detail
+| 1 | Customer Name | {{customerName}}
+| 2 | Customer Email Address | {{customerEmail}}
+| 3 | WeatherPromise Confirmation Code | {{contractNumber}}
+| 4 | WeatherPromise Fee Paid | {{premium}}
+| 5 | Type of WeatherPromise | Daily (FIXME: make it a parameter!)
+| 6 | Start Date | {{startDate}}
+| 7 | End Date | {{endDate}}
+| 8 | Destination(s) or Event (including dates for each destination if multiple destinations) | {{locationName}} ({{locationLatitude}}, {{locationLongitude}})
+| 9a | Total Event/Trip Cost | Not applicable
+| 9b | Daily Payout Amount (if you purchased a Daily Payout Weather Promise) | {{reimbursementAmount}}
+| 10 | Weather Threshold | There is more than {{maxRainfallAmount}} inches of rain on the given day between the WeatherPromise Start Time and WeatherPromise End Time.
+| 11 | Bad Weather Day Threshold
+.If you purchased a Full Trip WeatherPromise, we will pay you if there are more than this number of days with weather that exceeds the Weather Threshold
+.If you purchased a Daily WeatherPromise, we will pay you for each day in excess of this number of days
+|===
